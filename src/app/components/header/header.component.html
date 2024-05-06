@@ -1,0 +1,68 @@
+<div class="profile">
+  <div class="profile--nav-bar">
+    <span class="back-icon"></span>
+    <span class="nav-bar--label"></span>
+  </div>
+  <div
+    class="profile--background"
+    [style.backgroundImage]="'url(' + profile?.cover + ')'"
+  >
+    <img [src]="profile?.avatar" alt="" class="profile--avatar" />
+  </div>
+  <div class="profile--info">
+    <div class="profile--info-names">
+      <h1>{{ profile?.name }}</h1>
+      <h2>&#64;{{ profile?.username }}</h2>
+    </div>
+    <div class="profile--info-general">
+      <p class="profile-bio">{{ profile?.bio }}</p>
+      <div class="profile-location">
+        <span>
+          <mat-icon
+            aria-hidden="false"
+            aria-label=""
+            fontIcon="location_on"
+          ></mat-icon>
+          <p>{{ profile?.location }}</p>
+        </span>
+        <span>
+          <mat-icon
+            aria-hidden="false"
+            aria-label=""
+            fontIcon="link"
+          ></mat-icon>
+          <a [href]="profile?.website">{{ profile?.website }}</a>
+        </span>
+        <span>
+          <mat-icon
+            aria-hidden="false"
+            aria-label=""
+            fontIcon="nature"
+          ></mat-icon>
+          <p>
+            Nascido(a) em
+            {{ profile?.born_at | date : "dd/MM/yyyy" }}
+          </p>
+        </span>
+        <span>
+          <mat-icon
+            aria-hidden="false"
+            aria-label=""
+            fontIcon="today"
+          ></mat-icon>
+          <p>Ingressou em {{ profile?.created_at | date : "dd/MM/yyyy" }}</p>
+        </span>
+      </div>
+      <div class="profile-follow">
+        <span>
+          <strong>{{ profile?.followers }}</strong>
+          <p>Seguidores</p>
+        </span>
+        <span>
+          <strong>{{ profile?.following }}</strong>
+          <p>Seguindo</p>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="post">
+  <div class="post--avatar">
+    <img [src]="post?.avatar" alt="" />
+  </div>
+  <div class="post--container">
+    <div class="post--info">
+      <h1>{{ post?.name }}</h1>
+      <p>
+        &#64;{{ post?.username }} ·
+        {{ post?.created_at | date : "dd/MM/yyyy" }}.
+      </p>
+    </div>
+    <div class="post--content">
+      <p>{{ post?.content }}</p>
+      <img *ngIf="post?.image" [src]="post?.image" alt="" />
+    </div>
+    <div class="post--kpis">
+      <span>
+        <mat-icon
+          aria-hidden="false"
+          aria-label=""
+          fontIcon="chat_bubble_outline"
+        ></mat-icon
+        >{{ post?.comments }}</span
+      ><span>
+        <mat-icon aria-hidden="false" aria-label="" fontIcon="share"></mat-icon
+        >{{ post?.shares }}</span
+      ><span>
+        <mat-icon
+          aria-hidden="false"
+          aria-label=""
+          fontIcon="whatshot"
+        ></mat-icon
+        >{{ post?.likes }}</span
+      >
+    </div>
+  </div>
+  <div class="post--actions">
+    <button>...</button>
+  </div>
+</div>

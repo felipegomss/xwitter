@@ -1,0 +1,101 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Acabei de lançar meu novo projeto em Angular!",
+      "image": null,
+      "created_at": "2024-05-10T09:30:00",
+      "shares": 2,
+      "likes": 55,
+      "comments": 20
+    },
+    {
+      "id": 2,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Animado para compartilhar um pouco dos bastidores do meu processo de codificação!",
+      "image": "https://source.unsplash.com/featured/600x400/?keyboard",
+      "created_at": "2024-05-11T14:45:00",
+      "shares": 0,
+      "likes": 82,
+      "comments": 30
+    },
+    {
+      "id": 3,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Me sentindo inspirado pelas últimas tendências de design web. Hora de criar algo incrível!",
+      "image": "https://source.unsplash.com/featured/600x400/?web",
+      "created_at": "2024-05-12T17:20:00",
+      "shares": 2,
+      "likes": 67,
+      "comments": 15
+    },
+    {
+      "id": 4,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Refletindo sobre minha jornada de codificação até agora. Grato pelas oportunidades e desafios!",
+      "image": "https://source.unsplash.com/featured/600x400/?code",
+      "created_at": "2024-05-13T11:10:00",
+      "shares": 0,
+      "likes": 73,
+      "comments": 25
+    },
+    {
+      "id": 5,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Acabei de ingressar em um novo bootcamp de codificação! Pronto para aprimorar minhas habilidades.",
+      "image": null,
+      "created_at": "2024-05-14T08:00:00",
+      "shares": 5,
+      "likes": 92,
+      "comments": 40
+    },
+    {
+      "id": 6,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Compartilhando algumas dicas e truques para codificação eficiente. Fique ligado para mais!",
+      "image": null,
+      "created_at": "2024-05-15T15:50:00",
+      "shares": 7,
+      "likes": 63,
+      "comments": 18
+    },
+    {
+      "id": 7,
+      "name": "Felipe Gomes",
+      "username": "felipegomes_dev",
+      "avatar": "https://github.com/felipegomss.png",
+      "content": "Explorando novos frameworks e bibliotecas. Tantas possibilidades!",
+      "image": "https://source.unsplash.com/featured/600x400/?javascript",
+      "created_at": "2024-05-16T13:30:00",
+      "shares": 3,
+      "likes": 80,
+      "comments": 35
+    }
+  ],
+  "profile": {
+    "name": "Felipe Gomes",
+    "username": "felipegomes_dev",
+    "bio": "Desenvolvedor Front-End, torcedor do Vasco da Gama e apaixonado por tecnologia. 🚀",
+    "avatar": "https://github.com/felipegomss.png",
+    "followers": 100,
+    "following": 100,
+    "created_at": "2021-09-11T00:00:00.000Z",
+    "born_at": "1999-06-02T00:00:00.000Z",
+    "location": "Salvador, BA",
+    "website": "https://felipegomes.me",
+    "cover": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+}
